@@ -90,7 +90,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    )
+    ) 
     ,url("media/pngtree-female-programmer-in-front-of-computer-screens-picture-image_2734159.jpg");
     background-repeat: no-repeat;
     background-size: cover; /*todo el espacio disponible*/
@@ -169,6 +169,9 @@ header a:hover{
     height: 100vh;
     text-align: center;
     padding: 50px 12px;
+}
+#Redes ul{
+    padding: 0px;
 }
 #Redes h2{
     margin: 0;
