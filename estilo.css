@@ -54,15 +54,17 @@ header .logo{
 
 header .container{
     display: flex;
-    flex-direction: column; /*las cosas se ordenan en columna*/
+    flex-direction: row; /*las cosas se ordenan en columna*/
     align-items: center; /*centrar cositas*/
+    justify-content: space-between;
 }
 
 header .nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
+    padding-right: 20px;
 }
 
 header a{
