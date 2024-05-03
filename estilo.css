@@ -12,7 +12,7 @@ body{
 
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
-h3{font-size: 1.9em;}
+h3{font-size: 1.7em;}
 p{font-size: 1.25em;}
 ul{list-style: none;} /*sacar puntitos*/
 li{font-size: 1.25em;}
@@ -37,6 +37,8 @@ button:hover{
     max-width: 1400px; /*se centra el contenido al agrandar la pantalla*/
     margin: auto;
 }
+
+/*.color-acento{ color: rgb(179, 77, 19);}*/
 
 header{
     background-color: rgb(245, 245, 245);
@@ -74,7 +76,7 @@ header a:hover{
     color: brown;
 }
 
-#hero{
+#banner{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,3 +95,74 @@ header a:hover{
     background-position: center center; /*siempre centrada*/
 }
 
+#banner h1{
+    color: white;
+}
+
+#Sobre-Mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh; /*cambia en base a la altura de mi pantalla*/
+    color: white;
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/can.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; /*todo el espacio disponible*/
+    background-position: center center; /*siempre centrada*/
+}
+
+#Sobre-Mi .container{
+    text-align: center;
+    padding: 350px 50px;     
+}
+#Sobre-Mi h2{
+    margin-top: 0;
+    font-size:3em ;
+}
+
+#Experiencia-Laboral{
+    background-color: rgb(53, 16, 16);
+    color: white;
+    text-align: center;
+}
+#Experiencia-Laboral .container{
+    padding: 150px 50px;
+}
+#Experiencia-Laboral h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+#Experiencia-Laboral p{
+    display: none;
+}
+#Experiencia-Laboral .ExpL{
+    padding: 50px;
+    margin: 12px;
+    border-radius: 25px;
+}
+.ExpL{
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+}
+
+#Redes .container{
+    text-align: center;
+    padding: 50px 12px;
+
+}
+
+#Redes li{
+    margin: 16px 0px;
+    font-weight: bold;
+
+}
