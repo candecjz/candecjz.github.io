@@ -82,7 +82,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh; /*cambia en base a la altura de mi pantalla*/
+    height: 100vh; /*cambia en base a la altura de mi pantalla*/
     color: white;
     background-image:  linear-gradient(
         0deg,
@@ -154,15 +154,45 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
 }
-
+#Redes{
+    background-color: rgb(214, 204, 204);
+    color: white;
+    text-align: center;
+}
 #Redes .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
     text-align: center;
     padding: 50px 12px;
-
+}
+#Redes h2{
+    margin: 0;
+    padding: 25px 30px; /*el 1er valor arriba y abajo, el 2do a los costados*/
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
 }
 
 #Redes li{
     margin: 16px 0px;
     font-weight: bold;
-
 }
+
+footer{
+    background-color: rgb(230,230,230);
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /*pegado abajo*/
+}
+
